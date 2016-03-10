@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*aqui empieza el codigo*/
+
+.navbar {
+    background-color: #34495E;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #8E99A2;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #2C3E50;
+}
+
+/*UTILITIES*/
+
+
+
+
+/*heroimg*/
+
+
+#redes span {
+    font-size: 25px;
+    padding: 20px;
+    background-color: #1C7A44;
+    float: left;
+    margin: 20px 10px 65px 5px;
+    margin-bottom: 0px;
+}
+
+
+.img_our img {
+    width: 100%;
+
+    background-color: #ffffff;
+    padding: 20px 10px 30px 10px;
+    border: 1px solid #F1F1F1;
+    margin-top: 20px;
+}
+.img_our span {
+    position: absolute;
+    bottom: 5px;
+    left: 28px;
+    font-weight: bold;
+}
+#text_color {
+    color: #34495e;
+}
+.pagination li a {
+    border: 1px solid red;
+    padding: 15px;
+    background-color: #E74C3C;
+}
+.pagination li a span {
+    position: absolute;
+    top: 2px;
+    color: #F5F5F5;
+}
+.piedetext {
+    font-size: 14px;
+    color: grey;
+}
+.piedetext-home {
+    color: #ffffff;
+}
+
+.lorem_clients {
+    text-align: left;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-left: 5px solid white;
+}
+
+
+
+/*servics*/
+
+
+.text_Servics i {
+    background-color: #939393;
+    padding: 25px;
+    color: white;
+    font-size: 28px;
+    float: left;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+#color_auto {
+    color: #34495E;
+}
+.title_servics {
+    text-align: center;
+    color: #34495E;
+}
+.clients_say {
+    margin-top: 30px;
+    box-shadow: -7px 0px 0px 0px #EEEEEE;
+    padding-left: 10px;
+}
+
+/*CAAROUSEL*/
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+#carrusel {
+    padding: 0px;
+    margin-top: 37px;
+}
+.item {
+    background-image: url(../images/slider/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+#img-2 {
+    background-image: url(../images/slider/bg2.jpg);
+}
+#img-3 {
+    background-image: url(../images/slider/bg3.jpg);
+}
+.text_b {
+    color: white;
+    padding-top: 300px;
+}
+.text-white {
+    color: white;
+}
+
+
+
+
+
+
+/*media*/
+
+
+@media screen and (max-width:768px) {
+    footer,section{
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #suspensivos{
+        width:80%;
+            font-size:12px;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow: ellipsis;
+    }
+    
+}
